@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  monitor.public.dappnode.eth:
+    image: 'monitor.public.dappnode.eth:0.0.1'
+    build: ./build
+    tty: true
